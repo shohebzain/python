@@ -14,7 +14,7 @@ print(shoheb)
 Shoheb_a = "This is a variable named Shoheb_a with underscore"# snake case naming convention
 print(Shoheb_a)
 #data types in Python
-a = 39 # integer data type
+a = 39 # integer data type.
 b = 3.14 # float data type
 c = "Hello, World!" # string data type
 d = True # boolean data type
