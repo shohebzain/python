@@ -20,6 +20,6 @@ class Animal:
     def __add__(self, other):
         return f"sum of ages is {self.age + other.age}"
             
-obj = Animal("lion",12)  # create an Animal instance with name lion
+obj = Animal("lion",12)  # create an Animal instance with name lion.
 obj2 = Animal("dolphin",14)
 print(obj + obj2)  # print the string representation of obj
