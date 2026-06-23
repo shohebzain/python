@@ -1,5 +1,5 @@
 class Factory:
-    def __init__(self, material,zips,pockets): #initialization function in that first accepting the self parameter by putting , ask material zips and pockets
+    def __init__(self, material,zips,pockets): #initialization function in that first accepting the self parameter by putting , ask material zips and pockets.
         self.material = material
         self.zips = zips
         self.pockets = pockets
