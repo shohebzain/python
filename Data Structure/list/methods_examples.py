@@ -8,7 +8,7 @@ Index = n.index(5) #finds the index of 6
 Count_5 = n.count(5) #counts occurrences of 5
 n.sort() #sort the list in assending order
 n.reverse() #reverse the list order
-New_n = n.copy() #creates a copy of the list
+new_n = n.copy() #creates a copy of the list
 n.clear() #remove all the elements from the list
 n.index(3)
 #lists skower but more powerful than tuple
