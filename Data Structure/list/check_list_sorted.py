@@ -9,7 +9,7 @@ else:
 a = (1,2,3,9,5)
 if a == sorted(a):
     print("The tuple is sorted.")
-else:
+else: 
     print("The tuple is not sorted.")
 
 # to access the elements through the index.
