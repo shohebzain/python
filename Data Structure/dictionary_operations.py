@@ -9,7 +9,7 @@ print(d) # {10: 80, 0: 70}
 dict1 = {1: 'a', 2: 'b', 3: 'c'}
 dict2 = {4: 'd', 5: 'e', 6: 'f'}
 merged_dict = {**dict1, **dict2} # merging the two dictionaries using the unpacking operator
-print(merged_dict) # {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f'}       
+print(merged_dict) # {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f'}        
 
 #sum all the values in a dictionary
 my_dict = {'a': 1, 'b': 2, 'c': 3}
