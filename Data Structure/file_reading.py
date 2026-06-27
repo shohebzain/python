@@ -1,3 +1,3 @@
 #file handling
 a = open('main.py')
-print(a.read())
+print(a.read()) 
