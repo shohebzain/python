@@ -15,7 +15,7 @@ class Animal(ABC):
     """Abstract base class for animal types."""
 
     @abstractmethod
-    def make_sound(self):
+    def make_sound(self): 
         """Make the animal produce a sound."""
         pass
 class Dog(Animal):
