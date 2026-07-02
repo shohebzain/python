@@ -2,8 +2,8 @@
 abc = {"a": "hey","b": "hey","c": "hey","d": "hey",}
 x = abc
 print(x)
-x['a'] = "Hi"
-print(x)
-y = abc.copy() 
-y['b'] = "Hi"
-print(y)
+x['a'] = "Hi" 
+print(x) 
+y = abc.copy()  
+y['b'] = "Hi" 
+print(y) 
