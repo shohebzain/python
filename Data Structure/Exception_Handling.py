@@ -4,7 +4,7 @@ try:
     print("Result:", result)
 except ZeroDivisionError:
     print("Error: Cannot divide by zero.")
-
+ 
 b = int(input("Enter the number"))
 try:
     result = 10 / b
