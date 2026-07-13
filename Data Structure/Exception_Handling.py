@@ -1,5 +1,5 @@
 a = int(input("Enter a number: "))
-try:
+try:   
     result = 10 / a
     print("Result:", result)
 except ZeroDivisionError:
