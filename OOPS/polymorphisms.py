@@ -15,7 +15,7 @@ class human(Animal):
         print("How are you ")
 
 obj = human()
-obj.show()"""
+obj.show()""" 
 
 class Apple:
     def show(self):
