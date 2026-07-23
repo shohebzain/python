@@ -9,3 +9,4 @@ class Factoryhyd(Factory): #child class / sub class.
 
 obj2 = Factoryhyd()
 print(obj2.hello()) 
+ 
