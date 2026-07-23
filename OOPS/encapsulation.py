@@ -2,7 +2,7 @@ class Factory:
     a = "Hyderabad"
 
     def show(self):
-        print("this factory in hyderabad")
+        print("this factory in hyderabad") 
 
 obj = Factory()
 print(obj.a) #accessing the a 
