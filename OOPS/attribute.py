@@ -13,6 +13,6 @@ class Animal:
         print("HI")
 obj = Animal(12)
 obj.show() #HELLO
-obj.hello() #HEY
+obj.hello() #HEY 
 obj.static() #HI
     
