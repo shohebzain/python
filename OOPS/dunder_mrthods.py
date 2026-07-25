@@ -6,7 +6,7 @@
 # create a person instance
 p = person("Ravi")
 # print the stored name
-print(p.name) #Ravi"""
+print(p.name) #Ravi""" 
  
 # Animal class demonstrating dunder methods __str__ and __add__
 class Animal:
