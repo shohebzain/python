@@ -1,194 +1,50 @@
-# 🐍 Python Learning Repository
+# Python Learning Repository
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+A structured set of Python learning examples covering fundamentals, data structures, OOP, and advanced concepts.
 
-A comprehensive **Python Learning Repository** containing structured examples, practice programs, and mini-projects that cover Python fundamentals through advanced concepts. This repository is designed for students, beginners, and anyone preparing for coding interviews or improving their Python programming skills.
+## Repository purpose
+This repository is for practicing and revising Python concepts through small focused scripts.
 
----
+## Repository structure
+- `python/` - core Python basics and practice scripts
+- `Data Structure/` - list, tuple, dictionary, and algorithm practice
+- `OOPS/` - object-oriented programming examples
+- `Advance python/` - advanced language concepts such as decorators
 
-## 📖 About the Repository
+## Local setup
+1. Clone the repository.
+2. Create and activate a virtual environment.
+3. Install quality tools:
+   ```bash
+   python -m pip install --upgrade pip
+   pip install black ruff pytest
+   ```
 
-This repository provides hands-on Python examples organized by topic, making it easy to learn concepts step by step. Each folder focuses on a specific area of Python programming with practical examples and exercises.
-
----
-
-# 📂 Repository Structure
-
-```
-Python-Learning-Repository
-│
-├── 📁 Advance Python
-├── 📁 Data Structure
-│   ├── 📁 List
-│   └── 📁 Tuples
-├── 📁 OOPS
-├── 📁 Python
-└── README.md
+## Run checks locally
+```bash
+black --check tests
+ruff check tests
+pytest
 ```
 
----
-
-# 🚀 Topics Covered
-
-## 📘 Python Fundamentals
-
-* Variables and Data Types
-* Input & Output
-* Strings
-* Operators
-* Conditional Statements
-* Loops (For & While)
-* Functions
-* Recursion
-* Number Programs
-* Pattern Programs
-
----
-
-## 📚 Data Structures
-
-### 📋 Lists
-
-* List Creation
-* Indexing & Slicing
-* Traversing Lists
-* List Methods
-* Sorting
-* Finding Maximum & Minimum
-* Mean Calculation
-* Positive & Negative Separation
-* Checking Sorted Lists
-
-### 📦 Tuples
-
-* Tuple Creation
-* Accessing Elements
-* Tuple Methods
-* Count & Index Operations
-
-### 📖 Dictionaries
-
-* Dictionary Operations
-* Merging Dictionaries
-* Frequency Counting
-* Combining Dictionaries
-
-### 📄 File Handling
-
-* Reading Files
-* File Operations
-* Working with Text Files
-
-### ⚠️ Exception Handling
-
-* try
-* except
-* else
-* finally
-* Custom Exception Examples
-
----
-
-# 🏛️ Object-Oriented Programming (OOP)
-
-This section covers all major OOP concepts with practical examples.
-
-* ✅ Classes & Objects
-* ✅ Constructors
-* ✅ Attributes
-* ✅ Encapsulation
-* ✅ Inheritance
-* ✅ Polymorphism
-* ✅ Data Abstraction
-* ✅ Access Modifiers
-* ✅ Dunder (Magic) Methods
-
----
-
-# ⚡ Advanced Python
-
-* Decorators
-* Function Wrappers
-* Advanced Function Concepts
-
----
-
-# 🎯 Learning Roadmap
-
-Follow this order if you're new to Python:
-
-```
-Python Basics
-      ↓
-Functions & Loops
-      ↓
-Lists • Tuples • Dictionaries
-      ↓
-File Handling
-      ↓
-Exception Handling
-      ↓
-Object-Oriented Programming
-      ↓
-Advanced Python (Decorators)
+## Running learning scripts
+Most scripts are standalone and can be run directly:
+```bash
+python "Data Structure/calculator.py"
+python "python/main.py"
 ```
 
----
+## Environment variables
+No environment variables are required for the current project setup.
 
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution workflow and quality expectations.
 
-# 🎓 Who Can Use This Repository?
+## Security
+See [SECURITY.md](SECURITY.md) for responsible vulnerability reporting.
 
-This repository is useful for:
+## Code of Conduct
+See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-* 👨‍🎓 Students
-* 💻 Beginners Learning Python
-* 📚 College Practicals
-* 🎯 Coding Interview Preparation
-* 🏆 Competitive Programming Beginners
-* 🚀 Python Enthusiasts
-
----
-
-# 🌟 Key Features
-
-* Well-structured folder organization
-* Beginner-friendly examples
-* Practical coding exercises
-* Clean and readable Python code
-* Covers Python from basics to advanced topics
-* Easy to navigate
-* Suitable for self-learning and revision
-
----
-
-# 🤝 Contributions
-
-Contributions are welcome!
-
-If you'd like to improve this repository:
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Submit a Pull Request
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## ⭐ Support
-
-If you found this repository helpful:
-
-* ⭐ Star this repository
-* 🍴 Fork it
-* 📢 Share it with others
-
-Happy Coding! 🚀
+## License
+This project is licensed under the [MIT License](LICENSE).
