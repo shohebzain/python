@@ -1,0 +1,11 @@
+import heapq
+h1 = [10, 20, 15, 30, 40]
+heapq.heapify(h1)
+
+min = heapq.heapreplace(h1, 5)
+print(min)
+print(h1)
+
+h2 = [2, 4, 6, 8]
+h3 = list(heapq.merge(sorted(h1), sorted(h2)))
+print("Merged heap:", h3)
