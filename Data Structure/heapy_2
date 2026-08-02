@@ -1,0 +1,9 @@
+import heapq
+h = [10, 20, 15, 30, 40]
+heapq.heapify(h)
+
+maxi = heapq.nlargest(3, h)
+print("3 largest elements:", maxi)
+
+min = heapq.nsmallest(3, h)
+print("3 smallest elements:", min)
