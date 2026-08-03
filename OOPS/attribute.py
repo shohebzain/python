@@ -4,7 +4,7 @@ class Animal:
     def __init__(self,age):
         self.age =age #instance attribute
     def show(self): #intance method
-        print("HELLO") 
+        print("HELLO")  
     @classmethod #class method target to class
     def hello(cls):
         print("HEY")
