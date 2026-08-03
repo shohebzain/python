@@ -6,5 +6,6 @@ class Factory:
 
 obj = Factory()
 print(obj.a) #accessing the a 
-obj.a = "Karimnagar" # a can be change 
+obj.a = "Karimnagar" # a can be change  
+
 # we can access and change the altribute a. To not access and access we have to use encapsulation 
