@@ -2,7 +2,7 @@
     def __init__(self, name):
         # store the name for this person object
         self.name = name
-
+ 
 # create a person instance
 p = person("Ravi")
 # print the stored name
