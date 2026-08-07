@@ -4,7 +4,7 @@ if a == sorted(a):
     print("The list is sorted.")
 else:
     print("The list is not sorted.")
-
+ 
 #tuple
 a = (1,2,3,9,5)
 if a == sorted(a):
