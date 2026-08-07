@@ -5,7 +5,7 @@ queue.append('g')
 queue.append('f')
 queue.append('g')
 
-print("Initial queue")
+print("Initial queue") 
 print(queue)
 
 # Removing elements from the queue
