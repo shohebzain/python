@@ -7,7 +7,7 @@ heapq.heapify(a)
 # printing created heap
 print ("The created heap is:", a)
 
-# Push 4 into the heap
+# Push 4 into the heap 
 heapq.heappush(a, 4)
 
 # printing modified heap
