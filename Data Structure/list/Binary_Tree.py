@@ -8,7 +8,7 @@ class Node:
 def printInorder(root):
     if(root == None):
         return
-    printInorder(root.left)
+    printInorder(root.left) 
     print(root.data, end = " ")
     printInorder(root.right)
 
