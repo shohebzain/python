@@ -5,7 +5,7 @@ class Node:
         self.next = None
 
 if __name__=='__main__':
-
+ 
     # Create a linked list
     # 10 -> 20 -> 30
     head = Node(10)
