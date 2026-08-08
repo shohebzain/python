@@ -5,7 +5,7 @@ a = [5, 7, 9, 1, 3]
 heapq.heapify(a)
 
 # printing created heap
-print ("The created heap is:", a)
+print ("The created heap is:", a) 
 
 # Push 4 into the heap 
 heapq.heappush(a, 4)
