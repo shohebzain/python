@@ -1,7 +1,7 @@
 #seperate each digit of a number and print it on new line.
 num = int(input("Enter a number :"))
 while num > 0:
-    print(num % 10)
+    print(num % 10) 
     num = num//10
 
 #take the input from the user and extract the digit's
