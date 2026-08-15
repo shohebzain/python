@@ -7,7 +7,7 @@ for i in range(a):
 n = int(input("Enter a number: "))
 for i in range(1,n+1):
     print(i)
-# reverse for the loop. print n to 1
+# reverse for the loop. print n to 1 
 x = [1,2,3,4,5]
 for i in range(4,-1,-1):
     print(x[i])
