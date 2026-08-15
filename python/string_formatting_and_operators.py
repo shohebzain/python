@@ -9,7 +9,7 @@ print("my name is",name,"and my age is",age) # using comma to separate values in
 
 
 #operators in Python
-a = 10
+a = 10 
 b = 5
 # arithmetic operators
 print(a + b) # addition operator
