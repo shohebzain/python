@@ -9,7 +9,7 @@ b = int(input("Enter the number"))
 try:
     result = 10 / b
     print("result:",result)
-except Exception as err:#
+except Exception as err:# 
     print("Sorry there is a exception:")
 else:
     print("Good there is no exception")
