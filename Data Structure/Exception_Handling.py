@@ -2,7 +2,7 @@ a = int(input("Enter a number: "))
 try:   
     result = 10 / a 
     print("Result:", result)
-except ZeroDivisionError: 
+except ZeroDivisionError:  
     print("Error: Cannot divide by zero.") 
  
 b = int(input("Enter the number"))  
