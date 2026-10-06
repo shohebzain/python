@@ -1,7 +1,7 @@
 """class square:
     def __init__(self,side):
         self.side = side
-
+ 
 class circle:
     def __init__(self,radius):
         self.radius = radius
