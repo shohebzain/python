@@ -8,7 +8,7 @@ print(a+b)
 print("function's")
 def add(a, b):
     return a + b
-print(add(1,2))
+print(add(1,2)) 
 print(add(12,12)) 
 
 #Object-oriented programming 
