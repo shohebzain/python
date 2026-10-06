@@ -4,7 +4,7 @@
         self.name = name
  
 # create a person instance
-p = person("Ravi")
+p = person("Ravi") 
 # print the stored name
 print(p.name) #Ravi""" 
  
